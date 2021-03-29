@@ -11,5 +11,24 @@ img {
   width: 2rem;
 }
 
+p, nav {
+  font-size: 1.125rem;
+  background-color: #e2e2e2;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: .5rem
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
 @media only screen and (min-width: 40em) {
   }
